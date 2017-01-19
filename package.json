@@ -7,6 +7,7 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "postinstall": "bower install bootstrap"
   }
 }
