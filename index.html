@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="expires" content="0">
+    <meta charset="utf-8">
+    <title>My Bootstrap Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+    <!-- app.css -->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+  <body>
+    <!-- content begin -->
+    <div class="main-content">
+        <div class="container page-wrap">
+            <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+                <h1 class="text-center">Random Quotes</h1>
+                <h5 class="text-center">In collaboration with the Forismatic API</h5>
+                <br/>
+                <br/>
+                <p>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+                            <button class="btn btn-primary btn-lg btn-block" id="getQuote">New Quote</button>
+                        </div>
+                    </div>
+                </p>
+                <br/>
+                <br/>
+                <div class="well" style="opacity: 0.8">
+                    <blockquote>
+                        <p id="quoteText"></p>
+                        <footer>by <cite title="author" id="quoteAuthor">anonymous</cite>.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- require js -->
+    <script src="bower_components/require/require.js" data-main="js/main.js"></script>
+    <!-- jQuery -->
+    <!-- <script src="bower_components/jquery/dist/jquery.min.js"/> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="bower_components/bootstrap/dist/bootstrap.min.js"></script> -->
+    <!-- app JS -->
+    <!-- <script src="js/app.js?v=1.0.2"></script> -->
+  </body>
+</html>

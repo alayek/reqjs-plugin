@@ -1,0 +1,21 @@
+html,body {
+	/*height:100%;*/
+
+}
+
+body {
+	background-image: url('https://cloud.githubusercontent.com/assets/5607371/12379252/54a1aeb2-bd7c-11e5-88b6-12f2537c13d9.jpg');
+}
+
+h1 {
+	text-shadow: -1px -1px 1px #fff, 2px 2px 2px #000;
+	/*text-shadow: -2px 2px black, 2px -2px black, -2px -2px black, 2px 2px black;*/
+	color: #fff; /* pick a color pls :P */
+	opacity: 0.7;
+	font-size: 60px;
+}
+
+h5 {
+	/*text-shadow:   -1px -1px 1px #fff, 1px 1px 1px #000;*/
+	color: #aeaeae;
+}
